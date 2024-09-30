@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/11/c9/78/11c97870bc4b657d63d51908e59ea88c.jpg');
+    background-size: cover;       /* Ensures the image covers the whole page */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;                /* Ensures the body takes full viewport height */
+    width: 100vw;                 /* Ensures the body takes full viewport width */
+    overflow: hidden;             /* Hides any overflow from scrollbars */
+  }
+  
